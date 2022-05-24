@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de informações do usuário.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Página de retorno da faixa etária do usuário.</h1>
+    </header>
+    <body>
+        <header>
+            <h2>Insira os dados selecionados abaixo, para que possamos apontar sua faixa etária.</h2>
+        </header>
+
+        <div class="principal">
+            <div class="formulario">
+                <form class="form">
+                <label for="nomeUsuario">Nome:<input type="text" name="nomeUsuario" id="nomeUsuario" class="formulario-preenchimento" required></label>
+
+                <label for="nascimentoUsuario">Data de nascimento:<input type="date" name="nascimentoUsuario" id="nascimentoUsuario" class="formulario-preenchimento" required></label>
+
+                <label for="sexoUsuario">Informe seu sexo: <input type="radio" name="sexoUsuario" class="sexoFeminino" id="sexoUsuario" value="fem" class="formulario-preenchimento" checked>Mulher <input type="radio" name="sexoUsuario" class="sexoMasculino" id="sexoUsuario" value="masc">Homem</label>
+                
+                <input type="submit" class="formulario-preenchimento" value="Enviar">
+                </form>                
+            </div>
+        </div>
+    </body>
+    <footer>
+        <h3>Projeto 3 da mentoria CSV</h3>
+    </footer>
+</body>
+</html>
